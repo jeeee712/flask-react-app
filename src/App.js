@@ -8,9 +8,7 @@ function App() {
       <div className="App">
         <Routes>
           {" "}
-          {/* 'Switch' 대신 'Routes' 사용 */}
           <Route path="/" element={<PredictionForm />} />{" "}
-          {/* 'element'를 사용하여 컴포넌트를 렌더링 */}
         </Routes>
       </div>
     </Router>
